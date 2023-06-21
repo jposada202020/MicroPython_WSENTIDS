@@ -18,12 +18,6 @@ from collections import namedtuple
 from micropython import const
 from micropython_wsentids.i2c_helpers import CBits, RegisterStruct
 
-try:
-    from typing import Tuple
-except ImportError:
-    pass
-
-
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/jposada202020/MicroPython_WSENTIDS.git"
 
@@ -227,6 +221,9 @@ class WSENTIDS:
 
     @property
     def temperature(self) -> float:
+        """
+        Return the sensor temperature
+        """
         return self._temperature * 0.01
 
     @property
