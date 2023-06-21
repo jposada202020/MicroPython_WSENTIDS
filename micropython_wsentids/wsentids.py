@@ -5,7 +5,7 @@
 `wsentids`
 ================================================================================
 
-MicroPython library for the WSEN WSEN-TIDS temperautre Sensor
+MicroPython library for the WSEN WSEN-TIDS temperature Sensor
 
 
 * Author(s): Jose D. Montoya
