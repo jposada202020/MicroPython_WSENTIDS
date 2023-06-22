@@ -19,3 +19,4 @@ while True:
             print("Temperature: {:.1f}C".format(wsen.temp))
             print()
             time.sleep(0.5)
+        wsen.continuous_mode = continuous_mode

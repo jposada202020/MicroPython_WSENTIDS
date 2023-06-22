@@ -18,3 +18,4 @@ while True:
             wsen.data_rate = data_rate
             print("Temperature: {:.1f}C".format(wsen.temperature))
             time.sleep(0.5)
+        wsen.data_rate = data_rate
