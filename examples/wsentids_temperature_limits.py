@@ -16,7 +16,7 @@ print("High limit", wsen.high_limit)
 print("Low limit", wsen.low_limit)
 
 while True:
-    print("Temperature: {:.1f}C".format(wsen.temperature))
+    print(f"Temperature: {wsen.temperature:.1f}°C")
     alert_status = wsen.alert_status
     if alert_status.high_alert:
         print("Temperature above high set limit!")

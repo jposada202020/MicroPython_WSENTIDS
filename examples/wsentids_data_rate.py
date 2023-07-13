@@ -16,6 +16,7 @@ while True:
         print("Current Data rate setting: ", wsen.data_rate)
         for _ in range(10):
             wsen.data_rate = data_rate
-            print("Temperature: {:.1f}C".format(wsen.temperature))
+            print(f"Temperature: {wsen.temperature:.1f}°C")
+            print()
             time.sleep(0.5)
         wsen.data_rate = data_rate

@@ -77,6 +77,8 @@ class WSENTIDS:
 
     .. code-block:: python
 
+        temp = wsentids.temperature
+
     """
 
     _device_id = RegisterStruct(_WHO_AM_I, "B")
@@ -135,9 +137,9 @@ class WSENTIDS:
         """
         Sensor block_data_update used to inhibit the output
         register update between the reading of the upper
-        and lower register parts. In default mode (BDU = ‘0’), the
+        and lower register parts. In default mode (BDU = '0'), the
         lower and upper register parts are updated continuously.
-        it is recommended to set the BDU bit to ‘1’. In this way,
+        it is recommended to set the BDU bit to '1'. In this way,
         after the reading of the lower (upper) register part,
         the content of that output register is not updated until
         the upper (lower) part is read also.

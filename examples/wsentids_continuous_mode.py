@@ -16,7 +16,7 @@ while True:
         print("Current Continuous mode setting: ", wsen.continuous_mode)
         for _ in range(10):
             wsen.continuous_mode = continuous_mode
-            print("Temperature: {:.1f}C".format(wsen.temperature))
+            print(f"Temperature: {wsen.temperature:.1f}°C")
             print()
             time.sleep(0.5)
         wsen.continuous_mode = continuous_mode

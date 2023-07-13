@@ -11,6 +11,6 @@ wsen = wsentids.WSENTIDS(i2c)
 
 while True:
     temp = wsen.temperature
-    print("Temperature: {:.1f}C".format(temp))
+    print(f"Temperature: {temp:.1f}°C")
     print()
     time.sleep(0.5)

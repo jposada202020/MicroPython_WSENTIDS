@@ -24,4 +24,4 @@ Table of Contents
 .. toctree::
     :caption: Other Links
 
-    Download from GitHub <https://github.com/jposada202020/MciroPython_WSENTIDS/releases/latest>
+    Download from GitHub <https://github.com/jposada202020/MicroPython_WSENTIDS/releases/latest>

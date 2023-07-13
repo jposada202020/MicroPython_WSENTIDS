@@ -23,7 +23,6 @@ keywords = [
     "micropython",
     "wsentids",
     "wsen",
-    "micropython",
     "temperature",
     "driver",
     "sensor",
