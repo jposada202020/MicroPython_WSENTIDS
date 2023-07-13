@@ -25,7 +25,6 @@ keywords = [
     "wsen",
     "temperature",
     "driver",
-    "sensor",
     "tids",
 ]
 license = {text = "MIT"}
