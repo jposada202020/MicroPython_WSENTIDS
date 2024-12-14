@@ -1,10 +1,11 @@
-# DEPRECATED
+DEPRECATED
+=============
 
-<p>
-   This repository is no longer supported, please consider using alternatives.
-</p>
+This repository is no longer supported, please consider using alternatives.
 
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+.. image:: http://unmaintained.tech/badge.svg
+  :target: http://unmaintained.tech
+  :alt: No Maintenance Intended
 
 Introduction
 ============
@@ -14,22 +15,6 @@ Introduction
     :target: https://micropython-wsentids.readthedocs.io/en/latest/
     :alt: Documentation Status
 
-
-.. image:: https://img.shields.io/badge/micropython-Ok-purple.svg
-    :target: https://micropython.org
-    :alt: micropython
-
-.. image:: https://img.shields.io/pypi/v/micropython-wsentids.svg
-    :alt: latest version on PyPI
-    :target: https://pypi.python.org/pypi/micropython-wsentids
-
-.. image:: https://static.pepy.tech/personalized-badge/micropython-wsentids?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Pypi%20Downloads
-    :alt: Total PyPI downloads
-    :target: https://pepy.tech/project/micropython-wsentids
-
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-    :target: https://github.com/psf/black
-    :alt: Code Style: Black
 
 MicroPython library for the WSEN WSEN-TIDS temperautre Sensor
 
