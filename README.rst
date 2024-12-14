@@ -1,3 +1,11 @@
+# DEPRECATED
+
+<p>
+   This repository is no longer supported, please consider using alternatives.
+</p>
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 Introduction
 ============
 
